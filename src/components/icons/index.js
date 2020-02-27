@@ -12,7 +12,7 @@ import IconStar from './star';
 import IconFork from './fork';
 import IconZap from './zap';
 import FormattedIcon from './formattedIcon';
-
+import IconFacebook from './facebook.js';
 export {
   IconLoader,
   IconLogo,
@@ -28,4 +28,5 @@ export {
   IconFork,
   IconZap,
   FormattedIcon,
+  IconFacebook,
 };

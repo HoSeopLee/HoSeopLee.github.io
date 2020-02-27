@@ -18,21 +18,25 @@ module.exports = {
       name: 'GitHub',
       url: 'https://gitlab.com/HoSeopLee',
     },
-    {
-      name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/bchiang7',
-    },
-    {
-      name: 'Codepen',
-      url: 'https://codepen.io/bchiang7',
-    },
+    // {
+    //   name: 'Linkedin',
+    //   // url: 'https://www.linkedin.com/in/bchiang7',
+    // },
+    // {
+    //   name: 'Codepen',
+    //   // url: 'https://codepen.io/bchiang7',
+    // },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/bchiang7',
+      url: 'https://www.instagram.com/1994.hoseop',
+    },
+    {
+      name: 'Facebook',
+      url: 'https://www.facebook.com/profile.php?id=100003049775604',
     },
     {
       name: 'Twitter',
-      url: 'https://twitter.com/bchiang7',
+      // url: 'https://twitter.com/bchiang7',
     },
   ],
 

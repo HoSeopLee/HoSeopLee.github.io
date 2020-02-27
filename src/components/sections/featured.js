@@ -6,6 +6,8 @@ import { srConfig } from '@config';
 import { IconGitHub, IconExternal } from '@components/icons';
 import styled from 'styled-components';
 import { theme, mixins, media, Section, Heading } from '@styles';
+import { graphql, Link } from 'gatsby';
+
 const { colors, fontSizes, fonts } = theme;
 
 const StyledContainer = styled(Section)`
@@ -222,7 +224,7 @@ const Featured = ({ data }) => {
         {featuredProjects &&
           featuredProjects.map(({ node }, i) => {
             const { frontmatter, html } = node;
-            const { external, title, tech, github, cover } = frontmatter;
+            const { external, title, tech, github, cover, slug } = frontmatter;
 
             return (
               <StyledProject key={i} ref={el => (revealProjects.current[i] = el)}>
@@ -230,13 +232,13 @@ const Featured = ({ data }) => {
                   <StyledLabel>Featured Project</StyledLabel>
                   <StyledProjectName>
                     {external ? (
-                      <a
-                        href={external}
+                      <Link
+                        to={external}
                         target="_blank"
                         rel="nofollow noopener noreferrer"
                         aria-label="External Link">
                         {title}
-                      </a>
+                      </Link>
                     ) : (
                       title
                     )}

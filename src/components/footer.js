@@ -8,6 +8,7 @@ import {
   IconTwitter,
   IconStar,
   IconFork,
+  IconFacebook,
 } from '@components/icons';
 import { socialMedia } from '@config';
 import styled from 'styled-components';
@@ -114,6 +115,8 @@ const Footer = () => {
                     <IconInstagram />
                   ) : name === 'Twitter' ? (
                     <IconTwitter />
+                  ) : name === 'Facebook' ? (
+                    <IconFacebook />
                   ) : (
                     <IconGitHub />
                   )}
