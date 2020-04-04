@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://gitlab.com/sitemap.xml
-Host: https://gitlab.com
+Sitemap: https://note.hoseoop.co.kr/sitemap.xml
+Host: https://note.hoseoop.co.kr
