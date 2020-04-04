@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://note.hoseoop.co.kr/sitemap.xml
-Host: https://note.hoseoop.co.kr
+Sitemap: https://brittanychiang.com/sitemap.xml
+Host: https://brittanychiang.com
