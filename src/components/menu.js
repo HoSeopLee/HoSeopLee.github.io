@@ -1,3 +1,4 @@
+/* eslint-disable quotes */
 import React from 'react';
 import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
@@ -82,15 +83,14 @@ const ResumeLink = styled.a`
 
 const Menu = ({ menuOpen, toggleMenu }) => {
   const handleMenuClick = e => {
+    // eslint-disable-next-line no-console
     const target = e.target;
     const isLink = target.hasAttribute('href');
     const isNotMenu = target.classList && target.classList[0].includes('StyledContainer');
-
     if (isLink || isNotMenu) {
       toggleMenu();
     }
   };
-
   return (
     <StyledContainer
       menuOpen={menuOpen}

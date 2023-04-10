@@ -127,10 +127,10 @@ const Footer = () => {
       </StyledSocial>
       <StyledMetadata tabindex="-1">
         <StyledGitHubLink
-          href="https://github.com/bchiang7/v4"
+          href="https://gitlab.com/HoSeopLee"
           target="_blank"
           rel="nofollow noopener noreferrer">
-          <div>Designed &amp; Built by Brittany Chiang</div>
+          <div>LeeHoSeop &amp; gitLab</div>
 
           {githubInfo.stars && githubInfo.forks && (
             <StyledGitHubInfo>

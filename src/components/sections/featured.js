@@ -6,7 +6,7 @@ import { srConfig } from '@config';
 import { IconGitHub, IconExternal } from '@components/icons';
 import styled from 'styled-components';
 import { theme, mixins, media, Section, Heading } from '@styles';
-import { graphql, Link } from 'gatsby';
+import { Link } from 'gatsby';
 
 const { colors, fontSizes, fonts } = theme;
 
@@ -35,7 +35,7 @@ const StyledLabel = styled.h4`
   padding-top: 0;
 `;
 const StyledProjectName = styled.h5`
-  font-size: 28px;
+  font-size: 20px;
   margin: 0 0 20px;
   color: ${colors.lightestSlate};
   ${media.tablet`font-size: 24px;`};
@@ -48,10 +48,10 @@ const StyledDescription = styled.div`
   ${mixins.boxShadow};
   position: relative;
   z-index: 2;
-  padding: 25px;
+  padding: 12px;
   background-color: ${colors.lightNavy};
   color: ${colors.lightSlate};
-  font-size: ${fontSizes.lg};
+  font-size: 14px;
   border-radius: ${theme.borderRadius};
   ${media.thone`
     background-color: transparent;
@@ -224,7 +224,7 @@ const Featured = ({ data }) => {
         {featuredProjects &&
           featuredProjects.map(({ node }, i) => {
             const { frontmatter, html } = node;
-            const { external, title, tech, github, cover, slug } = frontmatter;
+            const { external, title, tech, github, cover } = frontmatter;
 
             return (
               <StyledProject key={i} ref={el => (revealProjects.current[i] = el)}>

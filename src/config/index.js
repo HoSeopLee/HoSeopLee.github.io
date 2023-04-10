@@ -1,17 +1,16 @@
 module.exports = {
-  siteTitle: 'Brittany Chiang | Software Engineer',
-  siteDescription:
-    'Brittany Chiang is a software engineer based in Boston, MA who specializes in developing (and occasionally designing) exceptional, high-quality websites and applications.',
+  siteTitle: 'HoSeopLee | Software Engineer',
+  siteDescription: '안녕하세요 초보 개발자 이호섭입니다.',
   siteKeywords:
-    'Brittany Chiang, Brittany, Chiang, bchiang7, software engineer, front-end engineer, web developer, javascript, northeastern',
-  siteUrl: 'https://brittanychiang.com',
-  siteLanguage: 'en_US',
+    'software engineer, front-end engineer, web developer, HTML & (S)CSS,JavaScript (ES6+), React, Node(Express)',
+  siteUrl: 'https://note.hoseop.co.kr/',
+  siteLanguage: 'Korean',
   googleAnalyticsID: 'UA-45666519-2',
   googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
-  name: 'Brittany Chiang',
-  location: 'Boston, MA',
+  name: 'LeeHoSeop',
+  location: 'Korea, Busan',
   email: 'llss2ssll@gmail.com',
-  github: 'https://gitlab.com/HoSeopLee',
+  github: 'https://github.com/HoSeopLee',
   twitterHandle: '@bchiang7',
   socialMedia: [
     {

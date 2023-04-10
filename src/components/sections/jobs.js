@@ -192,7 +192,6 @@ const Jobs = ({ data }) => {
       }
     }
   };
-
   return (
     <StyledContainer id="jobs" ref={revealContainer}>
       <Heading>Where I&apos;ve Worked</Heading>

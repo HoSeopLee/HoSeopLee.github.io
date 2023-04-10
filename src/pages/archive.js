@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from 'react';
-import { graphql } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import { Helmet } from 'react-helmet';
 import PropTypes from 'prop-types';
 import sr from '@utils/sr';
@@ -8,6 +8,7 @@ import { Layout } from '@components';
 import { IconGitHub, IconExternal } from '@components/icons';
 import styled from 'styled-components';
 import { theme, mixins, media, Main } from '@styles';
+
 const { colors, fonts, fontSizes } = theme;
 
 const StyledMainContainer = styled(Main)``;
@@ -87,6 +88,17 @@ const StyledTable = styled.table`
 const ArchivePage = ({ location, data }) => {
   const projects = data.allMarkdownRemark.edges;
 
+  const StyledArchiveLink = styled(Link)`
+    ${mixins.inlineLink};
+    text-align: center;
+    margin: 0 auto;
+    font-family: ${fonts.SFMono};
+    font-size: ${fontSizes.sm};
+    &:after {
+      bottom: 0.1em;
+    }
+  `;
+
   const revealTitle = useRef(null);
   const revealTable = useRef(null);
   const revealProjects = useRef([]);
@@ -99,22 +111,22 @@ const ArchivePage = ({ location, data }) => {
   return (
     <Layout location={location}>
       <Helmet>
-        <title>Archive | Brittany Chiang</title>
-        <link rel="canonical" href="https://brittanychiang.com/archive" />
+        <title>Archive | LeeHoSeop</title>
+        <link rel="canonical" href="https://note.hoseop.co.kr" />
       </Helmet>
 
       <StyledMainContainer>
         <header ref={revealTitle}>
           <h1 className="big-title">Archive</h1>
-          <p className="subtitle">A big list of things I’ve worked on</p>
+          <StyledArchiveLink to="/">A big list of things I’ve worked on</StyledArchiveLink>
         </header>
 
         <StyledTableContainer ref={revealTable}>
           <StyledTable>
             <thead>
               <tr>
-                <th>Year</th>
-                <th>Title</th>
+                <th>기간</th>
+                <th>제목</th>
                 <th className="hide-on-mobile">Made at</th>
                 <th className="hide-on-mobile">Built with</th>
                 <th>Link</th>
@@ -126,7 +138,7 @@ const ArchivePage = ({ location, data }) => {
                   const { date, github, external, title, tech, company } = node.frontmatter;
                   return (
                     <tr key={i} ref={el => (revealProjects.current[i] = el)}>
-                      <td className="overline year">{`${new Date(date).getFullYear()}`}</td>
+                      <td className="overline year">{`${new Date(date).getFullYear()} `}</td>
 
                       <td className="title">{title}</td>
 

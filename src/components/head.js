@@ -1,8 +1,9 @@
+/* eslint-disable no-duplicate-imports */
 import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import config from '@config';
-import favicon from '@images/favicons/favicon.ico';
+import favicon from '@images/logo.png';
 import ogImage from '@images/og.png';
 import appleIcon57x57 from '@images/logo.png';
 import appleIcon60x60 from '@images/logo.png';
@@ -40,7 +41,7 @@ const Head = ({ metadata }) => (
       {metadata.title}
     </title>
     <link rel="shortcut icon" href={favicon} />
-    <link rel="canonical" href="https://brittanychiang.com" />
+    {/* <link rel="canonical" href="https://brittanychiang.com" /> */}
 
     <meta name="description" content={metadata.description} />
     <meta name="keywords" content={config.siteKeywords} />
