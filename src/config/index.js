@@ -1,8 +1,8 @@
 module.exports = {
-  siteTitle: 'HoSeopLee | Software Engineer',
-  siteDescription: '안녕하세요 초보 개발자 이호섭입니다.',
+  siteTitle: '개발하는 브로콜리 | Front-end Developer',
+  siteDescription: '안녕하세요. 프론트엔드 개발자 이호섭입니다.',
   siteKeywords:
-    'software engineer, front-end engineer, web developer, HTML & (S)CSS,JavaScript (ES6+), React, Node(Express)',
+    'front-end, HTML & (S)CSS,JavaScript (ES6+), Next, React, React-Native, Electron, Node(Express)',
   siteUrl: 'https://note.hoseop.co.kr/',
   siteLanguage: 'Korean',
   googleAnalyticsID: 'UA-45666519-2',
