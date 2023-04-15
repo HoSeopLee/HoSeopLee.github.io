@@ -11,7 +11,7 @@ skills:
   - Spring Framework
 ---
 
-안녕하세요. 프론트엔드 개발자 [이호섭](https://gitlab.com/HoSeopLee)입니다.
+안녕하세요. 프론트엔드 개발자 [이호섭](https://github.com/HoSeopLee)입니다.
 
 저의 장점은 책임감, 성실함이 가장큰 장점입니다.&nbsp;
 제가 가진 장점은 책임감, 성실함이 가장 큰 장점입니다.&nbsp;

@@ -1,5 +1,5 @@
 ---
-date: '2016'
+date: '2013'
 title: 'Frontend Development'
 company: 'Frontend'
 location: 'BuSan, Korea'
