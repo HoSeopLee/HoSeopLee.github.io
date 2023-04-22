@@ -4,7 +4,7 @@ title: '2018 RedDot Design Award winner'
 cover: './lockcanrollfile.jpg'
 # github: 'https://github.com/bchiang7/octoprofile'
 # external: 'https://octoprofile.now.sh'
-external: '/test/'
+external: '/'
 slug: '/test/'
 tech:
 

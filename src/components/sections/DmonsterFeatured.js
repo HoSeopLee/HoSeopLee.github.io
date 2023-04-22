@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import React, { useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
 import Img from 'gatsby-image';
@@ -215,11 +216,11 @@ const Featured = ({ data }) => {
     sr.reveal(revealTitle.current, srConfig());
     revealProjects.current.forEach((ref, i) => sr.reveal(ref, srConfig(i * 100)));
   }, []);
+  console.log('data ', data);
+
   return (
-    <StyledContainer>
-      <Heading ref={revealTitle} hideCounter={true}>
-        Some Things I&apos;ve Built - Student
-      </Heading>
+    <StyledContainer id="projects">
+      <Heading ref={revealTitle}>Some Things I&apos;ve Built - Dmonster</Heading>
 
       <div>
         {featuredProjects &&

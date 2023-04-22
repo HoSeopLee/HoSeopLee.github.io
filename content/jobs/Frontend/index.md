@@ -8,6 +8,8 @@ range: '2016 ~ '
 ---
 
 - HTML, CSS, JS &nbsp;★★★★☆
-- React.js ★★★★☆
-- ReactNative.js ★★★☆☆
+- React ★★★★☆
+- ReactNative ★★★★☆
+- Typescript ★★★☆☆
+- Next ★★★☆☆
 - AWS(CloudFront) ★★★☆☆

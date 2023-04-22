@@ -13,4 +13,3 @@ range: 'October 2022-10 ~'
   - Electron
   - Chart
   - JWT, Redux
-- 참여 프로젝트

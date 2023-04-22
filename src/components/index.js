@@ -13,6 +13,8 @@ import Hero from './sections/hero';
 import About from './sections/about';
 import Jobs from './sections/jobs';
 import Featured from './sections/featured';
+import FreshNTechFeatured from './sections/FreshNTechFeatured';
+import DmonsterFeatured from './sections/DmonsterFeatured';
 import Projects from './sections/projects';
 import Contact from './sections/contact';
 
@@ -29,6 +31,8 @@ export {
   About,
   Jobs,
   Featured,
+  FreshNTechFeatured,
+  DmonsterFeatured,
   Projects,
   Contact,
   Footer,

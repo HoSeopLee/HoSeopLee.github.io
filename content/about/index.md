@@ -1,19 +1,18 @@
 ---
 title: 'About Me'
-avatar: './me.png'
+avatar: './me.jpeg'
 skills:
   - JavaScript (ES6+)
   - HTML & (S)CSS
   - React
-  - ReactNative
+  - React-Native
+  - Next
   - Node.js
   - Express
-  - Spring Framework
 ---
 
 안녕하세요. 프론트엔드 개발자 [이호섭](https://github.com/HoSeopLee)입니다.
 
-저의 장점은 책임감, 성실함이 가장큰 장점입니다.&nbsp;
 제가 가진 장점은 책임감, 성실함이 가장 큰 장점입니다.&nbsp;
 제가 맡은 일을 인내력있게 마무리하는 것 만큼은 자신있습니다.&nbsp;
 ‘모든일에 열심히 하자’가 제 좌우명입니다. 먼저 도전해보고 먼저 시작하여 경험합니다.&nbsp;
